@@ -9,13 +9,13 @@
 }
 
 [data-theme="dark"] {
-  --bg: #0f172a;
-  --card: #1e293b;
-  --text: #f1f5f9;
-  --text-soft: #94a3b8;
-  --primary: #818cf8;
-  --primary-dark: #6366f1;
-  --border: #334155;
+  --bg: #0f2a18;
+  --card: #396e2e;
+  --text: #419228;
+  --text-soft: #51b323;
+  --primary: #65cc20;
+  --primary-dark: #43d117;
+  --border: #15ff00;
 }
 
 * {
@@ -83,7 +83,7 @@ h1 {
 
 button {
   background: var(--primary);
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 0 20px;
   border-radius: 12px;
@@ -126,7 +126,7 @@ li .actions button {
 }
 
 li .actions .delete {
-  color: #ef4444;
+  color: #ff0000;
 }
 
 #stats {
